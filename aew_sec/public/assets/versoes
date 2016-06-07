@@ -1,0 +1,27 @@
+Versões de frameworks e plugins utilizados
+
+1.- Framework Javascript Jquery 1.11.0 Site http://jquery.com/
+2.- Bootstrap 3.3.2 framework  Site http://getbootstrap.com/ inclui os arquivos bootstraap.css e bootstrap.js
+    * Lembre na pasta bootstrap tem um arquivo chamado config.json para configurar e personalizar no site
+PLUGINS JS
+- Isotope 2.0.0 Framework para criar responsive layouts, fazer filtros, clasificar ordenar http://isotope.metafizzy.co/
+
+- Bootstrap validator 0.5.1 Valida formularios http://bootstrapvalidator.com/getting-started/ valida no cliente evitando enviar requisições ao servidor.
+
+- Datepicker http://eternicode.github.io/ 0.1.0 plugin para adicionar datepicker -> data de nacimento http://fengyuanchen.github.io/datepicker/#getting-started
+
+- jQuery Fraction Slider v0.9.101 utilizado para Slide da home http://fractionslider.jacksbox.de
+- Lazy load 1.9.3 Carrega imagens com retardo para evitar requisições desnecessarias  http://www.appelsiini.net/projects/lazyload
+- JQuery Tokenize 2.4 http://zellerda.com/projects/tokenize
+FONTS
+3.- Fonts Awesome 4.4 Site http://fontawesome.io/ 
+
+Customizaveis
+- HOME.css Theme Home
+- EA.css Theme Espaço Aberto
+- AAP.css Theme Ambientes de Apoio
+- TV.css Theme Tv Anisío Teixeira
+- ST.css Theme Sites Temáticos
+- CD.css Theme Conteudos Digitais
+- MAIN.css Arquivo fonte com css personalizado e principal
+- CUSTOM.js Arquivo fonte utilizado para carregar plugins e trabalhar com o DOM

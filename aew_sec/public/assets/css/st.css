@@ -1,0 +1,53 @@
+/* Sites Tematicos */
+.cor-canal-fundo{
+    color: #FFF;
+    background-color: #E74C3C;
+    border-color: rgba(231, 76, 60, 0.7);
+}
+
+.cor-canal-fonte{
+    color: #E74C3C;
+}
+
+i.site-tematico-carregando{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    z-index: 1;
+}
+
+img.site-tematico{
+    display: block;
+    transition: all 0.3s;
+}
+
+img.site-tematico:hover{
+    transform: scale(0.95);
+    box-shadow: 0 0 10px 0 #E74C3C;
+}
+
+.site-tematico-opcao.active img.site-tematico{
+    background-color: #777;    
+    transform: scale(0.95);
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.site-tematico-opcao.active h5{
+    color: #777;    
+    transform: scale(0.95);
+}    
+
+.active.arrow-top:before,
+.active.arrow-bottom:before,
+.active.arrow-right:before,
+.active.arrow-left:before{
+    color: #DDDDDD;
+}
+
+.page-header.vermelho{
+    border-color: #EBCDCD;
+}
+
+.col-style {
+    border: 2px solid #EEE;
+}

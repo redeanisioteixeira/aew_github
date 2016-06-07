@@ -1,0 +1,23 @@
+.emoji-list {
+    padding: 5px;
+    left: 0px !important;
+    min-width: 255px !important;
+    background-color: #8B8B8B;
+    border-color: #CCC;    
+}
+
+.emoji-list * {
+    display: inline-block;
+    margin: 1px;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .emoji-list {
+        position: absolute !important;
+        left: 0px !important;
+    }
+    .emoji-list * {
+        margin: 3px;
+    }
+}

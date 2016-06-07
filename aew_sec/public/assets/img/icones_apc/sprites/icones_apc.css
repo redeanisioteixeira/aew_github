@@ -1,0 +1,133 @@
+﻿/* glue: 0.9.4 hash: 28963ae971 */
+        .sprite-icones_apc-9,
+.sprite-icones_apc-8,
+.sprite-icones_apc-38,
+.sprite-icones_apc-37,
+.sprite-icones_apc-36,
+.sprite-icones_apc-23,
+.sprite-icones_apc-22,
+.sprite-icones_apc-21,
+.sprite-icones_apc-20,
+.sprite-icones_apc-18,
+.sprite-icones_apc-14,
+.sprite-icones_apc-13,
+.sprite-icones_apc-12,
+.sprite-icones_apc-11,
+.sprite-icones_apc-10 {
+            background-image: url('icones_apc.png');
+            background-repeat: no-repeat;
+        }
+        
+        .sprite-icones_apc-9 {
+            background-position: 0 0;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-8 {
+            background-position: -100px 0;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-38 {
+            background-position: 0 -100px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-37 {
+            background-position: -100px -100px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-36 {
+            background-position: -200px 0;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-23 {
+            background-position: -200px -100px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-22 {
+            background-position: 0 -200px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-21 {
+            background-position: -100px -200px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-20 {
+            background-position: -200px -200px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-18 {
+            background-position: -300px 0;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-14 {
+            background-position: -300px -100px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-13 {
+            background-position: -300px -200px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-12 {
+            background-position: 0 -300px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-11 {
+            background-position: -100px -300px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .sprite-icones_apc-10 {
+            background-position: -200px -300px;
+            width: 100px;
+            height: 100px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .sprite-icones_apc-9,
+    .sprite-icones_apc-8,
+    .sprite-icones_apc-38,
+    .sprite-icones_apc-37,
+    .sprite-icones_apc-36,
+    .sprite-icones_apc-23,
+    .sprite-icones_apc-22,
+    .sprite-icones_apc-21,
+    .sprite-icones_apc-20,
+    .sprite-icones_apc-18,
+    .sprite-icones_apc-14,
+    .sprite-icones_apc-13,
+    .sprite-icones_apc-12,
+    .sprite-icones_apc-11,
+    .sprite-icones_apc-10 {
+                background-image: url('icones_apc.png');
+                -webkit-background-size: 400px 400px;
+                -moz-background-size: 400px 400px;
+                background-size: 400px 400px;
+            }
+        }
+        

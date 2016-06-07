@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Euphemia";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/euphemia/Euphemia_UCAS_Regular_2_6_6.eot?#iefix") format("embedded-opentype"),
+	 url("/assets/fonts/euphemia/Euphemia_UCAS_Regular_2_6_6.woff") format("woff"),
+	 url("/assets/fonts/euphemia/Euphemia_UCAS_Regular_2_6_6.ttf") format("truetype"),
+	 url("/assets/fonts/euphemia/Euphemia_UCAS_Regular_2_6_6.svg#Euphemia") format("svg");
+}
+
+@font-face {
+    font-family: "NeoTechStdRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/neotech/neotechstd-regular-webfont.eot?#iefix") format("embedded-opentype"),
+	 url("/assets/fonts/neotech/neotechstd-regular-webfont.woff") format("woff"),
+	 url("/assets/fonts/neotech/neotechstd-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url('/assets/fonts/ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: "dingus";
+    src: url('/assets/fonts/dingus/dingus.ttf');
+}

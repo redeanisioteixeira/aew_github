@@ -1,0 +1,89 @@
+#portal.fixed{
+    position: fixed;
+}
+
+#portal{
+    position: absolute;
+    background-image: linear-gradient(to bottom, #FFF 20px, #B3B3B3 100%);
+    min-height: 45px;
+    border-bottom: 3px solid #CCC;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000000;
+
+/*position: absolute;
+    background-image: url("/assets/img/fundo_barra.png");
+    background-repeat: repeat-x;
+    margin: 0;
+    min-height: 45px;
+    padding: 0;
+    z-index: 1000000;
+    top: 0;
+    left: 0;
+    right: 0;
+*/   
+}
+
+#portal h4{
+    background-image: url("/assets/img/background_logo_marca.png");
+    background-repeat: no-repeat;
+    background-position: left 4px;
+    padding-left: 80px;;
+}
+
+#portal .btn{
+    padding: 4px 8px !important;
+    border-radius: 0;
+}
+
+#portal h4{
+    font-family: "Euphemia";
+    font-size: 24px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+#portal > .container > ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#portal > .container > ul > li > a {
+    font-family: NeoTechStdRegular;	
+    font-size: 16px;
+    font-weight: normal; 
+    margin: 2px 0 0 0;
+    padding: 8px !important;
+    border: 0
+}
+
+.link-cinza-claro {color: #969696; opacity:1}
+.link-cinza-escuro {color: #767676; opacity:1}
+.link-laranja {color: #CC853F; opacity:1}
+.link-verde {color: #00AF00; opacity:1}
+.link-vermelho {color: #CD0000; opacity:1}
+.link-azul {color: #009ACD; opacity:1}
+.link-roxo { color: #8968CD; opacity:1}
+
+.hover-laranja:hover{background-image: linear-gradient(to bottom, #8D4716 0%, #CC833E 100%); opacity:1}
+.hover-verde:hover{background-image: linear-gradient(to bottom, #006603 0%, #01AD00 100%); opacity:1}
+.hover-vermelho:hover{background-image: linear-gradient(to bottom, #8C0001 0%, #D21211 100%); opacity:1}
+.hover-azul:hover{background-image: linear-gradient(to bottom, #26408D 0%, #009ACC 100%); opacity:1}
+.hover-roxo:hover{background-image: linear-gradient(to bottom, #5F458F 0%, #8868CD 100%); opacity:1}
+
+
+@media (max-width: 400px) {
+	#portal{
+            background-image: none;
+            background-color: #FFF;
+            border-bottom: 2px solid #DDD;
+	}
+
+	#portal .btn:hover, 
+	#portal .btn:focus{
+		color: rgba(255,255,255,0.8);
+	}
+}

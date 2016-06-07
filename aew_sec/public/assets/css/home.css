@@ -1,0 +1,42 @@
+.col-style{
+    border: 2px solid #EEE;
+}
+
+.box-video-destaque{
+    background-color: rgba(159, 202, 212, 0.3);
+    overflow: hidden;
+}
+
+.box-video-destaque .box-conteudo-video{
+    background-image: url(/assets/img/fundo-video-destaque.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+}
+
+.box-video-destaque .box-conteudo-video video{
+    margin: 9.5% 0 10.5% 0;
+    border: 1px solid #A5A5A5;
+    width: 90%;
+    overflow: hidden;
+}
+
+.box-video-destaque .box-conteudo-texto{
+}
+
+.parallax-window {
+    background: transparent;
+    height: 385px;
+    overflow: hidden;
+}
+
+.parallax-shadow{
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 385px;
+}
+
+.parallax-mirror img{
+	opacity: 0.6;
+}
+

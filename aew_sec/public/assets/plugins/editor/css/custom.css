@@ -1,0 +1,31 @@
+.note-editor{
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background-color: #CCC;
+    overflow: hidden;
+}
+
+.note-handle{
+    max-height: 0;
+    color: transparent;
+}
+
+.note-codable{
+    display: none;
+    width: 100%;
+    min-height: 420px;
+    color: #2980B9;
+}
+
+.note-editable{
+    display: block;
+    min-height: 420px;
+    overflow-y: auto;
+    color: #777;
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.note-editor > .btn-toolbar > .btn-group > .btn{
+    background: none;
+}

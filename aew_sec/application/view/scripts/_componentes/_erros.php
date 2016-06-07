@@ -1,0 +1,1 @@
+<li class="text-center"><i class="fa fa-times-circle"></i> <?php echo $this->erro;?></li>

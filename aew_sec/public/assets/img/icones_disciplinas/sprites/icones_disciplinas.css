@@ -1,0 +1,237 @@
+﻿/* glue: 0.9.4 hash: 7989c9cb49 */
+        .sprite-icones_disciplinas-icone_disciplina99,
+.sprite-icones_disciplinas-icone_disciplina98,
+.sprite-icones_disciplinas-icone_disciplina97,
+.sprite-icones_disciplinas-icone_disciplina96,
+.sprite-icones_disciplinas-icone_disciplina95,
+.sprite-icones_disciplinas-icone_disciplina94,
+.sprite-icones_disciplinas-icone_disciplina93,
+.sprite-icones_disciplinas-icone_disciplina92,
+.sprite-icones_disciplinas-icone_disciplina91,
+.sprite-icones_disciplinas-icone_disciplina90,
+.sprite-icones_disciplinas-icone_disciplina89,
+.sprite-icones_disciplinas-icone_disciplina88,
+.sprite-icones_disciplinas-icone_disciplina41,
+.sprite-icones_disciplinas-icone_disciplina40,
+.sprite-icones_disciplinas-icone_disciplina39,
+.sprite-icones_disciplinas-icone_disciplina38,
+.sprite-icones_disciplinas-icone_disciplina37,
+.sprite-icones_disciplinas-icone_disciplina36,
+.sprite-icones_disciplinas-icone_disciplina35,
+.sprite-icones_disciplinas-icone_disciplina34,
+.sprite-icones_disciplinas-icone_disciplina33,
+.sprite-icones_disciplinas-icone_disciplina32,
+.sprite-icones_disciplinas-icone_disciplina30,
+.sprite-icones_disciplinas-icone_disciplina29,
+.sprite-icones_disciplinas-icone_disciplina103,
+.sprite-icones_disciplinas-icone_disciplina102,
+.sprite-icones_disciplinas-icone_disciplina101,
+.sprite-icones_disciplinas-icone_disciplina100 {
+            background-image: url('icones_disciplinas.png');
+            background-repeat: no-repeat;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina99 {
+            background-position: 0 0;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina98 {
+            background-position: -250px 0;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina97 {
+            background-position: 0 -250px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina96 {
+            background-position: -250px -250px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina95 {
+            background-position: -500px 0;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina94 {
+            background-position: -500px -250px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina93 {
+            background-position: 0 -500px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina92 {
+            background-position: -250px -500px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina91 {
+            background-position: -500px -500px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina90 {
+            background-position: -750px 0;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina89 {
+            background-position: -750px -250px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina88 {
+            background-position: -750px -500px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina41 {
+            background-position: 0 -750px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina40 {
+            background-position: -250px -750px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina39 {
+            background-position: -500px -750px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina38 {
+            background-position: -750px -750px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina37 {
+            background-position: -1000px 0;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina36 {
+            background-position: -1000px -250px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina35 {
+            background-position: -1000px -500px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina34 {
+            background-position: -1000px -750px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina33 {
+            background-position: 0 -1000px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina32 {
+            background-position: -250px -1000px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina30 {
+            background-position: -500px -1000px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina29 {
+            background-position: -750px -1000px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina103 {
+            background-position: -1000px -1000px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina102 {
+            background-position: -1250px 0;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina101 {
+            background-position: -1250px -250px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        .sprite-icones_disciplinas-icone_disciplina100 {
+            background-position: -1250px -500px;
+            width: 250px;
+            height: 250px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .sprite-icones_disciplinas-icone_disciplina99,
+    .sprite-icones_disciplinas-icone_disciplina98,
+    .sprite-icones_disciplinas-icone_disciplina97,
+    .sprite-icones_disciplinas-icone_disciplina96,
+    .sprite-icones_disciplinas-icone_disciplina95,
+    .sprite-icones_disciplinas-icone_disciplina94,
+    .sprite-icones_disciplinas-icone_disciplina93,
+    .sprite-icones_disciplinas-icone_disciplina92,
+    .sprite-icones_disciplinas-icone_disciplina91,
+    .sprite-icones_disciplinas-icone_disciplina90,
+    .sprite-icones_disciplinas-icone_disciplina89,
+    .sprite-icones_disciplinas-icone_disciplina88,
+    .sprite-icones_disciplinas-icone_disciplina41,
+    .sprite-icones_disciplinas-icone_disciplina40,
+    .sprite-icones_disciplinas-icone_disciplina39,
+    .sprite-icones_disciplinas-icone_disciplina38,
+    .sprite-icones_disciplinas-icone_disciplina37,
+    .sprite-icones_disciplinas-icone_disciplina36,
+    .sprite-icones_disciplinas-icone_disciplina35,
+    .sprite-icones_disciplinas-icone_disciplina34,
+    .sprite-icones_disciplinas-icone_disciplina33,
+    .sprite-icones_disciplinas-icone_disciplina32,
+    .sprite-icones_disciplinas-icone_disciplina30,
+    .sprite-icones_disciplinas-icone_disciplina29,
+    .sprite-icones_disciplinas-icone_disciplina103,
+    .sprite-icones_disciplinas-icone_disciplina102,
+    .sprite-icones_disciplinas-icone_disciplina101,
+    .sprite-icones_disciplinas-icone_disciplina100 {
+                background-image: url('icones_disciplinas.png');
+                -webkit-background-size: 1500px 1250px;
+                -moz-background-size: 1500px 1250px;
+                background-size: 1500px 1250px;
+            }
+        }
+        

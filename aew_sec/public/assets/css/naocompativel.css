@@ -1,0 +1,71 @@
+#mensagemBrowserIE6 {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 900000;
+}
+
+#mensagemBrowserIE6 .info-IE6 h2{
+    font-size: 150%;
+}
+
+#mensagemBrowserIE6 .info-IE6{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    width: 770px;
+}
+
+#mensagemBrowserIE6 p{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#mensagemBrowserIE6 table{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#mensagemBrowserIE6 td.browser-img{
+    padding: 10px 30px 10px 30px;
+}
+
+#mensagemBrowserIE6 td div.browser-chrome,
+#mensagemBrowserIE6 td div.browser-firefox,
+#mensagemBrowserIE6 td div.browser-ie {
+    background-image: url("/assets/img/img_browsers.png");
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+}
+
+#mensagemBrowserIE6 td div.browser-chrome{
+    background-position: -8px 0;
+}
+
+#mensagemBrowserIE6 td div.browser-firefox{
+    background-position: -96px 0;
+}
+
+#mensagemBrowserIE6 td div.browser-ie{
+    background-position: -357px 0;
+}
+
+#mensagemBrowserIE6 td.browser-link{
+    vertical-align: top;
+    text-align: center;
+    padding: 10px;
+}
+
+#mensagemBrowserIE6 td.browser-link a,
+#mensagemBrowserIE6 td.browser-link a:link{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}

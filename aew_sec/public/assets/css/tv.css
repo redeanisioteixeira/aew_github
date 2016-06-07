@@ -1,0 +1,171 @@
+body{
+	margin-top: 150px;
+}
+
+.btn-readmore{
+	margin-top: 31% !important;	
+}
+/*
+video /deep/ div div div{
+	background-color: rgba(150, 150, 150, 0.8);
+}
+*/
+.page-marcatv{
+	background-image: url('/assets/img/logo-tv.png');
+	background-repeat: no-repeat;
+	background-position: right 15px;
+}
+
+.marcatv{
+	position: absolute;
+	background-image: url('/assets/img/logo-tv.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 99;
+	opacity: 0.6;
+	width: 70px;
+	height: 70px;
+	top: 20px;
+	left: 20px;
+}
+
+a{
+	color: #C2C2C2;
+}
+
+.btn-slide{
+    display: table-cell !important;
+    border-radius: 50%;
+    padding: 15px;
+    border: 2px solid #FFF;
+    width: 90px !important;
+    height: 80px !important;
+}
+
+.img-slide{
+    margin: 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 #222;
+    padding: 0;
+    border: 2px solid #F1C40F;
+    overflow: hidden;
+}
+
+.box-video{
+	padding: 10px;
+}
+
+#box-comentarios,
+.col-style{
+	border: 1px solid #F6C466;/*#F1C40F*/
+	background-color: rgba(238, 238, 238, 0.2);
+}
+
+figure.img-formato{
+	border: 2px solid #F1C40F;
+}
+    
+figure.img-formato:hover{
+    opacity: 0.7;
+}
+
+.fa-play-circle-o:before{
+    position: absolute;
+    top: -3px;
+    right: 3px;
+    color: #F1C40F;
+}
+
+.menu-bar{
+    z-index: 99997;
+    margin-top: 54px;
+}
+
+.menu-bar ul{
+    border-bottom: 1px dotted #FFF;
+}
+
+.menu-bar ul li a:hover, 
+.menu-bar ul li a:focus{
+    color: #222;
+}
+
+.menu-bar .nav > li > a{
+    padding: 10px;
+}
+
+.menu-bar .nav > li.active > a{
+    background-color: rgba(0, 0, 0, 0);
+    color: #080808;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+article.destaque .col-style{
+    background-image: linear-gradient(to bottom, #777 0, #585858 100%);
+}
+
+article.destaque .col-style > *,
+article.destaque i{
+    color: #FFF;
+}
+
+article.recentes .col-style{
+    background-color: #FFF
+}
+
+
+#volume-video{
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+#volume-video img.equalizer{
+    display: none;
+    margin-top: -35px;
+    margin-left: 30px;
+}
+
+.fa-volume-off:after{
+    content: "ouvir";
+    font-size: 14px;
+    display: block;
+    margin-top: -22px;
+    margin-left: 18px;
+}
+
+.fa-volume-up:after{
+    content: "";
+}
+
+.video-bg{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.video-bg.bg{
+    background-color: transparent;
+}
+
+video.video-bg{
+    opacity: 0.4;
+}
+
+article.video-destaque{
+    background-color: rgba(34, 34, 34, 0.5);
+    border-radius: 4px !important;
+    box-shadow: 0 0 10px 0 #000;
+    padding: 5px 10px 5px 10px;
+}
+
+article.video-destaque i,
+article.video-destaque p{
+    color: #FFF;
+}

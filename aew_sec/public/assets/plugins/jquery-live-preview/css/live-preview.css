@@ -1,0 +1,80 @@
+/*** Styles for Live Preview Window ***/
+#livepreview_dialog{
+    position: absolute;
+    background-color: #FFF;
+    background-image: url('../images/icon_loading.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 #777;
+    border: 1px solid #777;
+    z-index: 10;
+}
+
+iframe#livepreview_iframe{
+    border-radius: 4px;
+}
+
+#livepreview_dialog.arrow-top:before{
+    content: " ";
+    position: absolute;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid;
+    left: 47.5%;
+}
+
+#livepreview_dialog.arrow-bottom:before {
+    content: " ";
+    position: absolute;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-top: 10px solid;
+    left: 47.5%;
+}
+
+#livepreview_dialog.arrow-left:before{
+    content: " ";
+    position: absolute;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid;
+    top: 47.5%;
+}
+
+#livepreview_dialog.arrow-right:before{
+    content: " ";
+    position: absolute;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    border-left: 10px solid;
+    top: 47.5%;
+}
+
+#livepreview_dialog.arrow-top:before,
+#livepreview_dialog.arrow-bottom:before,
+#livepreview_dialog.arrow-right:before,
+#livepreview_dialog.arrow-left:before{
+    color: #777;
+    z-index: 20;
+}
+
+#livepreview_dialog.top:before{
+    top: 0;
+    margin-top: -10px
+}
+
+#livepreview_dialog.bottom:before{
+    bottom: 0;
+    margin-bottom: -10px;
+}
+
+#livepreview_dialog.left:before{
+    left: 0;
+    margin-left: -10px;
+}
+
+#livepreview_dialog.right:before{
+    right: 0;
+    margin-right: -10px;
+}

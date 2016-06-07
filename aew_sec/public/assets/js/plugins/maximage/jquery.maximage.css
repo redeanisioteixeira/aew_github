@@ -1,0 +1,144 @@
+/*	----------------------------------------------------------------
+	MaxCycle (Fullscreen Slideshow for use with jQuery Cycle Plugin)
+	----------------------------------------------------------------
+	
+	Demo at: http://www.aaronvanderzwan.com/maxcycle/
+	Download and Info at: http://github.com/akv2/MaxCycle---jQuery-Plugin/
+	Copyright (c) 2007-2011 Aaron Vanderzwan
+	Dual licensed under the MIT and GPL licenses.
+	
+*/
+/*! Version: 2.0.73 (12-Oct-2012) */
+
+.mc-hide-scrolls{
+    overflow:hidden;
+}
+
+body .mc-cycle {
+    height:100%;
+    left:0;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:-1;
+}
+
+div.mc-image {
+    transition: opacity 1s ease-in-out;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow: hidden;
+    width:100%;
+}
+
+div.mc-image span.tooltip {
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
+    bottom: 10%;
+    left: 0;
+    border: 0;
+    font-size: 12px;
+    border-radius: 0 6px 6px 0;
+    padding: 8px 30px 8px 8px;
+    min-height: 20px;
+    width: 240px;
+    box-shadow: 0 0 10px #000;
+    opacity: 1 !important;
+} 
+
+div.mc-image span.tooltip span.imagem{
+    display: none;
+    position: absolute;
+    height: 160px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.35);
+    padding: 1px;
+    border-radius: 4px;
+    margin-top: -195px;
+    background-color: #FFFFFF;
+}
+
+div.mc-image span.tooltip span.imagem:after{
+    content: "";
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    border-top: 9px solid #F5F5F5;
+    position: relative;
+    bottom: -9px;
+    left: 48%;
+}
+
+div.mc-image span.tooltip span.imagem img{
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+div.mc-image span.tooltip:hover span.imagem {
+    display: block;
+}
+
+.mc-old-browser .mc-image {
+    overflow:hidden;
+}
+
+/*
+div#maximage-buttom{
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(75,75,75,0.5);
+}
+*/
+a#arrow_left, a#arrow_right{
+    position: absolute;
+    display: inline-block;
+    margin-top: 20%;
+    background-color: #FFF;
+    padding: 30px 10px 30px 10px;
+    box-shadow: 0 0 10px 0 #000;
+    opacity: 0.3;
+}
+
+a#arrow_left{
+    left: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+a#arrow_right{
+    right: 0;
+    border-radius: 8px  0 0 8px;
+}
+
+a#arrow_left:hover,
+a#arrow_right:hover{
+    opacity: 0.6;
+}
+
+section#maximage-main article{
+    //background-color: rgba(34, 34, 34, 0.5);
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 rgba(0, 146, 218, 1);
+    margin-top: 140px;
+    padding: 5px 10px 5px 10px;
+}
+
+section#maximage-main article,
+.bs-footer{
+    background-image: none;
+    background-color: rgba(0, 146, 218, 0.4) !important;
+}
+
+
+@media (max-width: 400px) {
+    a#arrow_left, a#arrow_right{
+        margin-top: 45%;
+    }
+}

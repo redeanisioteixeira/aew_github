@@ -1,0 +1,56 @@
+.sprite-tipos-arquivos-application {
+	background-image: url('tipos-arquivos.svg');
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite-tipos-arquivos-application-zip {background-position: 0px 0px;}
+.sprite-tipos-arquivos-application-xls {background-position: 0px -20px;}
+.sprite-tipos-arquivos-application-rar {background-position: 0px -40px;}
+.sprite-tipos-arquivos-application-flv {background-position: 0px -60px;}
+.sprite-tipos-arquivos-application-odt {background-position: 0px -80px;}
+.sprite-tipos-arquivos-application-xml {background-position: -20px 0px;}
+.sprite-tipos-arquivos-application-ods {background-position: -20px -20px;}
+.sprite-tipos-arquivos-application-ppt {background-position: -20px -40px;}
+.sprite-tipos-arquivos-application-doc {background-position: -20px -60px;}
+.sprite-tipos-arquivos-application-lnk {background-position: -20px -80px;}
+.sprite-tipos-arquivos-application-txt {background-position: -40px 0px;}
+.sprite-tipos-arquivos-application-swf {background-position: -40px -20px;}
+.sprite-tipos-arquivos-application-png {background-position: -40px -40px;}
+.sprite-tipos-arquivos-application-avi {background-position: -40px -60px;}
+.sprite-tipos-arquivos-application-pdf {background-position: -60px 0px;}
+.sprite-tipos-arquivos-application-mp4 {background-position: -60px -20px;}
+.sprite-tipos-arquivos-application-mp3 {background-position: -60px -40px;}
+.sprite-tipos-arquivos-application-mpg {background-position: -60px -60px;}
+.sprite-tipos-arquivos-application-gif {background-position: -80px 0px;}
+.sprite-tipos-arquivos-application-jpg {background-position: -80px -20px;}
+.sprite-tipos-arquivos-application-webm {background-position: -80px -40px;}
+.sprite-tipos-arquivos-application-download {background-position: -80px -60px;}
+
+.sprite-tipos-arquivos-application.size-28 {background-size: 140px 140px; width: 28px; height: 28px; margin: -6px;}
+
+.sprite-tipos-arquivos-application-zip.size-28 {background-position: 0px 0px;}
+.sprite-tipos-arquivos-application-xls.size-28 {background-position: 0px -28px;}
+.sprite-tipos-arquivos-application-rar.size-28 {background-position: 0px -56px;}
+.sprite-tipos-arquivos-application-flv.size-28 {background-position: 0px -84px;}
+.sprite-tipos-arquivos-application-odt.size-28 {background-position: 0px -112px;}
+.sprite-tipos-arquivos-application-xml.size-28 {background-position: -28px 0px;}
+.sprite-tipos-arquivos-application-ods.size-28 {background-position: -28px -28px;}
+.sprite-tipos-arquivos-application-ppt.size-28 {background-position: -28px -56px;}
+.sprite-tipos-arquivos-application-doc.size-28 {background-position: -28px -84px;}
+.sprite-tipos-arquivos-application-lnk.size-28 {background-position: -28px -112px;}
+.sprite-tipos-arquivos-application-txt.size-28 {background-position: -56px 0px;}
+.sprite-tipos-arquivos-application-swf.size-28 {background-position: -56px -28px;}
+.sprite-tipos-arquivos-application-png.size-28 {background-position: -56px -56px;}
+.sprite-tipos-arquivos-application-avi.size-28 {background-position: -56px -84px;}
+.sprite-tipos-arquivos-application-pdf.size-28 {background-position: -84px 0px;}
+.sprite-tipos-arquivos-application-mp4.size-28 {background-position: -84px -28px;}
+.sprite-tipos-arquivos-application-mp3.size-28 {background-position: -84px -56px;}
+.sprite-tipos-arquivos-application-mpg.size-28 {background-position: -84px -84px;}
+.sprite-tipos-arquivos-application-gif.size-28 {background-position: -112px 0px;}
+.sprite-tipos-arquivos-application-jpg.size-28 {background-position: -112px -28px;}
+.sprite-tipos-arquivos-application-webm.size-28 {background-position: -112px -56px;}
+.sprite-tipos-arquivos-application-download.size-28 {background-position: -112px -84px;}
+

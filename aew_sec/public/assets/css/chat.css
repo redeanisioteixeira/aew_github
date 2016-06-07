@@ -1,0 +1,923 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: #CCCCCC;
+	font-style: italic;
+	letter-spacing: -1px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #CCCCCC;
+	font-style: italic;
+	letter-spacing: -1px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #CCCCCC;
+	font-style: italic;
+	letter-spacing: -1px;
+}
+:-ms-placeholder { /* Internet Explorer 10+ */
+	color: #CCCCCC;
+	font-style: italic;
+	letter-spacing: -1px;
+}
+
+#area_mensagem{
+    float:left;
+    width:300px;
+    height:200px;
+    border:1px solid #CCCCCC;
+    background-color: #FFFFFF !important;
+}
+
+#area_mensagem span.escrita{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+
+div#video_youtube{
+	float: left;
+	color: #FFFFFF;
+	padding: 2px;
+	border: 2px solid #006400;
+	margin-left: 40px;
+}
+
+div#video_youtube:hover{
+	background-color: #FFFFFF;
+}
+
+div#video_youtube h5{
+	font-family: "Trebuchet MS", arial, helvetica;
+	font-size: 10px;
+	text-align: center;
+	background-color: #006400;
+}
+
+div#video_youtube a{
+	display:block;
+	float:left;
+}
+
+div#video_youtube img{
+	width: 120px;
+	height: 90px;
+	border: 2px solid #006400;
+}
+
+div#area-chat{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 15%;
+    right: 0px;
+    top: 0px;
+    z-index: 99998;
+}
+
+/*
+div#area-chat.ativar{
+    right: -238px;
+}
+*/
+
+div#area-chat.ativar{
+    right:-15%;
+    /*box-shadow: none;*/
+}
+
+div#aviso-chat-desativado{
+    position: absolute;
+    display: block;
+    top: 90px;
+    right: 106%;
+    z-index: -1;
+    width: 60%;
+}
+
+div#aviso-chat-desativado i.fa-cloud{
+    font-size: 130px;
+    opacity: 0.65;
+    z-index: 0;
+}
+
+div#aviso-chat-desativado h5{
+    padding: 40px 15px 0 10px;
+    z-index: 1;
+}
+
+a#botao-chat{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 100% 0 0 100%;
+    cursor: pointer;
+    left: -25px;
+    top: 90px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    color: #222;
+    z-index: 0;
+}
+
+a#botao-chat i:before{
+    margin-left: -15px;
+}
+
+div#contatos{
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+div#contatos .filtrar_usuario{
+    resize: none;
+    width: 100%;
+    border: 0;
+    padding: 9px;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+div#contatos .filtrar_usuario.carregando{
+    background-color: transparent;
+    background-image: url("/assets/img/ajax-finder.gif");
+    background-repeat: no-repeat;
+    background-position: right center; 
+}
+
+div#contatos ul.contatos{
+    clear:both;
+    list-style-type:none;
+    width: 100%;
+    height: 84.8%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+div#contatos ul.contatos li.contatos{
+    border-top: 1px solid #F3F3F3;
+    display: block;
+    height: 40px;
+    padding-left: 2px;
+    width: 100%;
+}
+
+div#contatos ul.contatos li.bloqueado{
+}
+
+div#contatos ul.contatos li img{
+    float: left;
+    margin: 1px 5px 1px 2px;
+    background-color: #FFFFFF;
+}
+
+div#contatos ul.contatos li.inicio_naoativo{
+/*	border-top:3px double #CCCCCC;
+	padding-top: 2px;*/
+}
+
+div#contatos ul.contatos li.contatos a{
+    text-decoration:none;
+    display:block;
+    font-family: "Ubuntu";
+    font-size:12px;
+    color:#393939;
+    text-transform: capitalize;
+    height: 40px;
+    line-height: 120%;
+    cursor:pointer;
+}
+
+div#contatos ul.contatos li.contatos a span{
+    display: table-cell;
+    height: 36px;
+    vertical-align: middle;
+    width: 80%;
+}
+
+div#contatos ul.contatos li.contatos a span.offline{
+//    text-shadow: 1px 1px #797979;
+    color: #A0A0A0;
+}
+
+div#contatos ul.contatos li.contatos a span:before{
+    float: right;
+}
+
+div#contatos ul.contatos li.contatos a span b{
+    color: #000;
+}
+
+div#contatos ul.contatos li.contatos i.icone-dispositivo{
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    margin-top: -10px;
+}
+
+div#contatos ul.contatos li.contatos div.perfil{
+    position: absolute;
+    display: block;
+    background-color: #FFF;
+    border-radius: 4px;
+    height: 90px;
+    margin-left: -260px;
+    width: 250px;
+    cursor: default;
+    z-index: 29;
+    visibility: hidden;
+}
+
+div#contatos ul.contatos li.contatos div.perfil:after{
+    content: "";
+    position: absolute;
+    border-color: transparent transparent transparent #FFF;
+    border-style: solid;
+    border-width: 8px;
+    height: 0;
+    right: -16px;
+    top: 21px;
+    width: 0;
+}
+
+div#contatos ul.contatos li.contatos div.perfil img{
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    height: 90px;
+    width: 90px;
+    margin: -5px 5px 0px -5px;
+    background-color: #000;
+}
+
+
+div#contatos ul.contatos li.contatos div.perfil span.sobremim{
+    font-family: "Trebuchet MS",arial,helvetica;
+    color: #787878;
+    font-size: 11px;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    width: 150px;
+    height: 32px;
+    line-height: 100%;
+    word-wrap: break-word;
+}
+
+div#contatos ul.contatos li.contatos div.perfil ul.opcoes-menu-perfil{
+    position: absolute;
+    right: 10px;
+    bottom: 5px
+}
+
+div#contatos ul.contatos li.contatos div.perfil ul.opcoes-menu-perfil li{
+    display: inline-block;
+    font-size: 145%;
+    padding: 0 0 0 10px;
+}
+
+div#contatos ul.contatos li.contatos div.perfil ul.opcoes-menu-perfil li:hover{
+    color: #222;
+}
+
+div#contatos ul.contatos li.contatos:hover div.perfil{
+    visibility: visible;
+}
+
+div#contatos ul.contatos li.contatos:last-child{
+    margin-bottom: 55px;
+}
+
+div#janelas{
+    position: fixed;
+    bottom: 0;
+    right: 15.6%;
+    z-index: 9999;
+    height: 1px;
+    width: 100%;
+}
+
+div#janelas div.janela{
+    float: right;
+    width: 16%;
+    box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.3);
+    background-color: #F4F4F4;
+    margin-top: -20%;
+    margin-right: 8px;
+}
+
+div#janelas div.janela:first-child{
+    margin-right: 0;
+}
+
+div#janelas div.janela.fixar{
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: -34px;
+}
+
+div.janela div.topo-chat{
+    float: left;
+    width: 100%;
+    cursor:pointer;
+}
+
+div#janelas div.janela div#corpo{
+    float: left;
+    width: 100%;
+}
+
+div.topo-chat.fixar{
+    box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+div.janela div.topo-chat.notificar{
+    z-index: 30;
+}
+
+div.janela div.topo-chat span{
+    float: left;
+    font-size: 14px;
+    color: #555;
+    width: 74%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+div.topo-chat.notificar span.contador_notificar{
+    position: absolute;
+    top: -13px;
+    right: 2px;
+    background-color: #222;
+    color: #FFF;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 0 0 5px 0;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px;
+    text-align: center;
+    width: 8%;
+    height: inherit;
+    z-index: 31;
+}
+
+div.janela div.topo-chat a.opcao-chat{
+    float: right;
+    display: block;
+    color: #555;
+    font-size: 145%;
+    padding: 5px 2px 5px 2px;
+}
+
+div.janela div.topo-chat a#configurar{
+
+}
+
+div.janela div.topo-chat a#fechar{
+}
+
+div.janela div#corpo div.configurar{
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #CCCCCC;
+    cursor: pointer;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+div.janela div#corpo div.configurar a{
+    display: block;
+    height: 18px;
+    margin: 7px;
+}
+
+div.janela div.topo-chat a.opcao-chat:hover{
+    color: #969696;
+}
+
+div.janela input[type=text]{
+    padding:3px; 
+    border:0;
+    outline:none;
+    background:#f4f4f4;
+    font-size:13px;
+    color:#393939;
+    width:224px;
+}
+
+#area_mensagem,
+div.janela textarea{
+    padding:4px;
+    border:1px solid #F4F4F4;
+    outline:none;
+    background-color:#F4F4F4;
+    font-size:13px;
+    color:#666666;
+    min-width: 90%;
+    max-width: 90%;
+    overflow: auto;
+    resize: none;
+}
+
+div.janela textarea:focus{
+    border: 1px solid #CCCCCC;
+}
+
+div.mensagens{
+    float: left;
+    width: 100%;
+    background: #fff;
+    height: 250px;
+    border-bottom:1px solid #CCCCCC;
+}
+
+
+div.janela.offline div.topo-chat{
+	background-color: #333333;
+}
+
+div.janela.offline div#corpo{
+	background-color: #CCCCCC;
+	background-image: url("/assets/img/chat/icone_background_offline.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+div.janela.offline div.mensagens,
+div.janela.offline div.mensagens ul,
+div.janela.offline div.mensagens ul li{
+	background-color: transparent !important;
+	border: 0 !important;
+}
+
+div.janela div.configurar-mensagem{
+	background-color: #FFFFFF;
+	float: left;
+	height: 290px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+div.janela div.configurar-mensagem span,
+div.janela div.configurar-mensagem p,
+div.janela div.configurar-mensagem div{
+	float: left;
+	font-size: 13px;
+	padding: 5px;
+	width: 100%;
+}
+
+div.janela div.configurar-mensagem div.opcao-botao{
+    background-color: #F4F4F4;
+    border-top: 1px solid #CCCCCC;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+div.janela div.configurar-mensagem div.opcao-botao button{
+	background-color: #A2A2A2;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 4px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+div.janela div.configurar-mensagem div.opcao-botao button:hover{
+	background-color: #393939	;
+}
+
+div.mensagens ul.listar{
+    float: left;
+    width: 100%;
+    background-color: #EAEAEA;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style-type: none;
+    padding: 0;  
+}
+
+div.mensagens ul.listar li{
+    float:left;
+    width:100%;
+}
+
+div.mensagens ul.listar li div.box-mensagem{
+    float: left;
+    margin: 4px;
+    padding: 5px;
+    max-width: 95%;
+    background-color: #FFF;
+}
+
+div.mensagens ul.listar li.remetente div.box-mensagem{
+    background-color: #EAEAEA;
+}
+
+div.mensagens ul.listar li.remetente div.box-mensagem{
+    float: left;
+    margin-left: 6px;
+    border-radius: 0 3px 3px 3px;
+}
+
+div.mensagens ul.listar li.destinatario div.box-mensagem{
+    float: right;
+    margin-right: 6px;
+    border-radius: 3px 0 3px 3px;
+}
+
+div.mensagens ul.listar li.remetente div.box-mensagem:before {
+    content: "";
+    float: left;
+    border-color: #EAEAEA #EAEAEA transparent transparent;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: -11px;
+    margin-top: -5px;    
+}
+
+div.mensagens ul.listar li.destinatario div.box-mensagem:before {
+    content: "";
+    float: right;
+    border-color: #FFF transparent transparent #FFF;
+    border-style: solid;
+    border-width: 3px;
+    margin-right: -11px;
+    margin-top: -5px;    
+}
+
+div.mensagens ul.listar li span{
+    float:left;
+    color: #000;
+    width:100%;
+    margin:2px;
+}
+
+div.mensagens ul.listar li span.usuario{
+    display: none;
+}
+/*
+div.mensagens ul.listar li:hover span.enviado{
+	display:block;
+}
+*/
+div.mensagens ul.listar li span.enviado{
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.mensagens ul.listar li span strong{
+    text-transform:capitalize;
+}
+
+div.mensagens ul.listar li p{
+    float:left;
+    color:#787878;
+    width: 100%;
+    margin: 0 0 2px 0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+div.mensagens ul.listar li a.link_conteudo_chat{
+	color: #333333;
+	text-decoration: none;
+	font-size:12px;
+	color: #006400;
+	text-decoration: underline;
+}
+
+div.mensagens ul.listar li a.link_conteudo_chat:hover{
+	color: #787878;
+}
+
+div.mensagens div.aviso{
+    position: absolute;
+    right: 5px;
+    background-image: url("/assets/img/chat/writing.gif");
+    background-repeat: no-repeat;
+    height: 27px;
+    width: 36px;
+}
+
+.area_emoticons{
+	display: block;
+	float: right;
+	z-index: 1;
+	position: relative;
+	height:0;
+}
+
+.area_emoticons .mais_icones{
+	color: #000000;
+	float: right;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 6px;
+	margin-top: -15px;
+	position: relative;
+	z-index: 1;
+	outline: none;
+	cursor: pointer;
+}
+
+table.emoticons{
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	border-spacing: 0;
+	padding: 2px 2px 0;
+	background-color: #FFFFFF;
+	margin-top: 104px;
+	margin-right: 2px;
+}
+
+table.emoticons.aberto{
+	margin-top: -12px;
+}
+
+table.emoticons td{
+	float:left;
+	display:block;
+	padding: 4px;
+	border: 1px solid #FFFFFF;
+}
+
+table.emoticons tr.outros{
+	display: none;
+}
+
+table.emoticons tr.aberto{
+	padding-bottom: 0 !important;
+}
+
+table.emoticons tr.inicio td{
+	width: 94%;	
+}
+
+
+table.emoticons tr.inicio td:hover{
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	cursor: default;
+}
+
+table.emoticons tr.final,
+table.emoticons tr:last-child{
+	float:left;
+	padding-bottom: 12px;
+}
+
+table.emoticons td:hover{
+	background-color: #F2FFF2;
+	border: 1px solid #CCCCCC;
+	cursor:pointer;
+}
+
+a.chamada_icones{
+    display: block;
+    float: right;
+    color: #777;
+    font-size: 20px;    
+    cursor:pointer;
+    padding: 4px;
+}
+
+.area_icones{
+	position: relative;
+	z-index: 32;
+}
+
+img.emoticon, a.emoticon{
+	background-image:url(/assets/img/chat/icone_emotionslist.png);
+	background-repeat:no-repeat;
+	height: 16px;
+	width: 16px;
+}
+
+a.emoticon{
+	display: block;
+	outline: none;
+}
+
+img._e1, a.e1{background-position:0px -0px}
+
+img.e1, a.e1{background-position:0px -0px}
+img.e2, a.e2{background-position:0px -17px}
+img.e3, a.e3{background-position:0px -34px}
+img.e4, a.e4{background-position:0px -51px}
+img.e5, a.e5{background-position:0px -68px}
+img.e6, a.e6{background-position:0px -85px}
+img.e7, a.e7{background-position:0px -102px}
+img.e8, a.e8{background-position:0px -119px}
+img.e9, a.e9{background-position:0px -136px}
+img.e10, a.e10{background-position:0px -153px}
+img.e11, a.e11{background-position:0px -170px}
+img.e12, a.e12{background-position:0px -187px}
+img.e13, a.e13{background-position:0px -204px}
+img.e14, a.e14{background-position:0px -221px}
+img.e15, a.e15{background-position:0px -238px}
+img.e16, a.e16{background-position:0px -255px}
+img.e17, a.e17{background-position:0px -272px}
+img.e18, a.e18{background-position:0px -289px}
+img.e19, a.e19{background-position:0px -306px}
+img.e20, a.e20{background-position:0px -323px}
+img.e21, a.e21{background-position:0px -340px}
+img.e22, a.e22{background-position:0px -357px}
+img.e23, a.e23{background-position:0px -374px}
+img.e24, a.e24{background-position:0px -391px}
+img.e25, a.e25{background-position:0px -408px}
+img.e26, a.e26{background-position:0px -425px}
+img.e27, a.e27{background-position:0px -442px}
+img.e28, a.e28{background-position:0px -459px}
+img.e29, a.e29{background-position:0px -476px}
+img.e30, a.e30{background-position:0px -493px}
+img.e31, a.e31{background-position:0px -510px}
+img.e32, a.e32{background-position:0px -527px}
+img.e33, a.e33{background-position:0px -544px}
+img.e34, a.e34{background-position:0px -561px}
+img.e35, a.e35{background-position:0px -578px}
+img.e36, a.e36{background-position:0px -595px}
+img.e37, a.e37{background-position:0px -612px}
+img.e38, a.e38{background-position:0px -629px}
+img.e39, a.e39{background-position:0px -646px}
+img.e40, a.e40{background-position:0px -663px}
+img.e41, a.e41{background-position:0px -680px}
+img.e42, a.e42{background-position:0px -697px}
+img.e43, a.e43{background-position:0px -714px}
+img.e44, a.e44{background-position:0px -731px}
+img.e45, a.e45{background-position:0px -748px}
+img.e46, a.e46{background-position:0px -765px}
+img.e47, a.e47{background-position:0px -782px}
+img.e48, a.e48{background-position:0px -799px}
+img.e49, a.e49{background-position:0px -816px}
+img.e50, a.e50{background-position:0px -833px}
+img.e51, a.e51{background-position:0px -850px}
+img.e52, a.e52{background-position:0px -867px}
+img.e53, a.e53{background-position:0px -884px}
+img.e54, a.e54{background-position:0px -901px}
+img.e55, a.e55{background-position:0px -918px}
+img.e56, a.e56{background-position:0px -935px}
+img.e57, a.e57{background-position:0px -952px}
+img.e58, a.e58{background-position:0px -969px}
+img.e59, a.e59{background-position:0px -986px}
+img.e60, a.e60{background-position:0px -1003px}
+img.e61, a.e61{background-position:0px -1020px}
+img.e62, a.e62{background-position:0px -1037px}
+img.e63, a.e63{background-position:0px -1054px}
+img.e64, a.e64{background-position:0px -1071px}
+img.e65, a.e65{background-position:0px -1088px}
+img.e66, a.e66{background-position:0px -1105px}
+img.e67, a.e67{background-position:0px -1122px}
+img.e68, a.e68{background-position:0px -1139px}
+img.e69, a.e69{background-position:0px -1156px}
+img.e70, a.e70{background-position:0px -1173px}
+img.e71, a.e71{background-position:0px -1190px}
+img.e72, a.e72{background-position:0px -1207px}
+img.e73, a.e73{background-position:0px -1224px}
+img.e74, a.e74{background-position:0px -1241px}
+img.e75, a.e75{background-position:0px -1258px}
+img.e76, a.e76{background-position:0px -1275px}
+img.e77, a.e77{background-position:0px -1292px}
+img.e78, a.e78{background-position:0px -1309px}
+img.e79, a.e79{background-position:0px -1326px}
+img.e80, a.e80{background-position:0px -1343px}
+img.e81, a.e81{background-position:0px -1360px}
+img.e82, a.e82{background-position:0px -1377px}
+img.e83, a.e83{background-position:0px -1394px}
+img.e84, a.e84{background-position:0px -1411px}
+img.e85, a.e85{background-position:0px -1428px}
+img.e86, a.e86{background-position:0px -1445px}
+img.e87, a.e87{background-position:0px -1462px}
+img.e88, a.e88{background-position:0px -1479px}
+img.e89, a.e89{background-position:0px -1496px}
+img.e90, a.e90{background-position:0px -1513px}
+img.e91, a.e91{background-position:0px -1530px}
+img.e92, a.e92{background-position:0px -1547px}
+img.e93, a.e93{background-position:0px -1564px}
+img.e94, a.e94{background-position:0px -1581px}
+img.e95, a.e95{background-position:0px -1598px}
+img.e96, a.e96{background-position:0px -1615px}
+img.e97, a.e97{background-position:0px -1632px}
+img.e98, a.e98{background-position:0px -1649px}
+img.e99, a.e99{background-position:0px -1666px}
+img.e100, a.e100{background-position:0px -1683px}
+img.e101, a.e101{background-position:0px -1700px}
+img.e102, a.e102{background-position:0px -1717px}
+img.e103, a.e103{background-position:0px -1734px}
+img.e104, a.e104{background-position:0px -1751px}
+img.e105, a.e105{background-position:0px -1768px}
+img.e106, a.e106{background-position:0px -1785px}
+img.e107, a.e107{background-position:0px -1802px}
+img.e108, a.e108{background-position:0px -1819px}
+img.e109, a.e109{background-position:0px -1836px}
+img.e110, a.e110{background-position:0px -1853px}
+img.e111, a.e111{background-position:0px -1870px}
+img.e112, a.e112{background-position:0px -1887px}
+img.e113, a.e113{background-position:0px -1904px}
+img.e114, a.e114{background-position:0px -1921px}
+img.e115, a.e115{background-position:0px -1938px}
+img.e116, a.e116{background-position:0px -1955px}
+img.e117, a.e117{background-position:0px -1972px}
+img.e118, a.e118{background-position:0px -1989px}
+img.e119, a.e119{background-position:0px -2006px}
+img.e120, a.e120{background-position:0px -2023px}
+img.e121, a.e121{background-position:0px -2040px}
+img.e122, a.e122{background-position:0px -2057px}
+img.e123, a.e123{background-position:0px -2074px}
+img.e124, a.e124{background-position:0px -2091px}
+img.e125, a.e125{background-position:0px -2108px}
+img.e126, a.e126{background-position:0px -2125px}
+img.e127, a.e127{background-position:0px -2142px}
+img.e128, a.e128{background-position:0px -2159px}
+img.e129, a.e129{background-position:0px -2176px}
+img.e130, a.e130{background-position:0px -2193px}
+img.e131, a.e131{background-position:0px -2210px}
+img.e132, a.e132{background-position:0px -2227px}
+img.e133, a.e133{background-position:0px -2244px}
+img.e134, a.e134{background-position:0px -2261px}
+img.e135, a.e135{background-position:0px -2278px}
+img.e136, a.e136{background-position:0px -2295px}
+img.e137, a.e137{background-position:0px -2312px}
+img.e138, a.e138{background-position:0px -2329px}
+img.e139, a.e139{background-position:0px -2346px}
+img.e140, a.e140{background-position:0px -2363px}
+img.e141, a.e141{background-position:0px -2380px}
+img.e142, a.e142{background-position:0px -2397px}
+img.e143, a.e143{background-position:0px -2414px}
+img.e144, a.e144{background-position:0px -2431px}
+img.e145, a.e145{background-position:0px -2448px}
+img.e146, a.e146{background-position:0px -2465px}
+img.e147, a.e147{background-position:0px -2482px}
+img.e148, a.e148{background-position:0px -2499px}
+img.e149, a.e149{background-position:0px -2516px}
+img.e150, a.e150{background-position:0px -2533px}
+img.e151, a.e151{background-position:0px -2550px}
+img.e152, a.e152{background-position:0px -2567px}
+img.e153, a.e153{background-position:0px -2584px}
+img.e154, a.e154{background-position:0px -2601px}
+img.e155, a.e155{background-position:0px -2618px}
+
+span.contador{
+    position: absolute;
+    background-color: #949494;
+    color: #FFF;
+    font-size: 9px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: -4px;
+    box-shadow: 0 3px 5px 1px #222;
+    padding: 2px;
+    min-width: 15px;
+    height: 15px;
+    overflow: hidden;
+}
+
+i.contador{
+    font-size: 130%;
+}
+
+[bgcolor|=menu-cinza] div.mensagens ul.listar{background-color: #A0A0A0}
+[bgcolor|=menu-cinza-claro] div.mensagens ul.listar{background-color: rgba(160, 160, 160, 0.4)}
+[bgcolor|=menu-azul] div.mensagens ul.listar{background-color: rgba(42, 171, 210, 0.2)}
+[bgcolor|=menu-azul-claro] div.mensagens ul.listar{background-color: rgba(42, 171, 210, 0.3)}
+[bgcolor|=menu-vermelho] div.mensagens ul.listar{background-color: rgba(231, 76, 60, 0.3)}
+[bgcolor|=menu-amarelo] div.mensagens ul.listar{background-color: rgba(241, 196, 15, 0.3)}
+[bgcolor|=menu-verde] div.mensagens ul.listar{background-color: rgba(92, 184, 92, 0.3)}
+[bgcolor|=menu-roxo] div.mensagens ul.listar{background-color: rgba(137,104,205,0.3)}
+[bgcolor|=menu-marron] div.mensagens ul.listar{background-color: rgba(240, 157, 0, 0.3)}
+
+[bgcolor|=menu-cinza] h6.pefil{color: #A0A0A0}
+[bgcolor|=menu-cinza-claro] h6.pefil{color: rgba(160, 160, 160, 0.4)}
+[bgcolor|=menu-azul] > h6.pefil{color: #2AABD2}
+[bgcolor|=menu-azul-claro] > h6.pefil{color: rgba(42, 171, 210, 0.3)}
+[bgcolor|=menu-vermelho] h6.pefil{color: #E74C3C}
+[bgcolor|=menu-amarelo] h6.pefil{color: rgba(241, 196, 15, 0.7)}
+[bgcolor|=menu-verde] h6.pefil{color: rgba(92, 184, 92, 0.7)}
+[bgcolor|=menu-roxo] h6.pefil{color: rgba(155, 89, 182, 0.7)}
+[bgcolor|=menu-marron] h6.pefil{color: rgba(240, 157, 0, 0.6)}
+
+@media (max-width: 400px) {
+    div#area-chat{
+        width: 18%;
+    }
+    
+    div#contatos ul.contatos{
+        height: 90%;    
+    }
+    
+    footer.bottom-rodape{
+        visibility: hidden;
+    }
+}

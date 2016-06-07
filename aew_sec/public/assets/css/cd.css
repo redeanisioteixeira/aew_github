@@ -1,0 +1,58 @@
+
+.cor-canal-relacionados,
+.cor-canal-player{
+    background-color: rgba(221, 235, 252, 0.5);
+    border-color: #009ACD;
+}
+
+.cor-canal-fundo{
+    color: #FFF;
+    background-color: #009ACD !important;
+    border-color: #357EBD !important;
+}
+
+.cor-canal-fonte{
+    color: #009ACD;
+}
+
+a.disciplina.ativo img{
+    opacity: 1;
+    border: 1px solid #FFF;
+}
+
+.page-header.azul {
+    border-color: #357EBD;
+}
+
+.col-style,
+#box-comentarios{
+    border: 1px solid #DDD;
+    background-color: rgba(238, 238, 238, 0.2);
+}
+
+#conteudo-digital-form #group_guia-label,
+#conteudo-digital-form #group_indicar-label,
+#conteudo-digital-form #group_enviar-label,
+#conteudo-digital-form #group_imagem-label,
+#conteudo-digital-form #group_salvar-label{
+    display: none;
+}
+
+#conteudo-digital-form  #fieldset-group_salvar{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -25px;
+}
+
+#conteudo-digital-form  #fieldset-group_salvar dl li.form-group{
+    margin-bottom: 0;
+}
+
+.background-azul{
+    background-color: #F9FDFE;
+}
