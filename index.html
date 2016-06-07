@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Aew GitHub by redeanisioteixeira</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Aew GitHub</h1>
+        <h2>Ambiente Educacional Web</h2>
+        <a href="https://github.com/redeanisioteixeira/aew_github" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="ambiente-educacional-web---aew" class="anchor" href="#ambiente-educacional-web---aew" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AMBIENTE EDUCACIONAL WEB - AEW</h1>
+
+<p>O <strong>Ambiente Educacional Web</strong> – <strong>AEW</strong> é um projeto de aprendizagem (baseado em <strong>ZEND FRAMEWORK 1.11</strong>) voltado ao compartilhamento de conteúdos digitais através de licenças livres, disponibilizado na internet no endereço (<strong><a href="http://ambiente.educacao.ba.gov.br">http://ambiente.educacao.ba.gov.br</a></strong>) para acesso e utilização de todos; constituído pelos seguintes módulos: </p>
+
+<ul>
+<li>
+<strong>Conteúdos Digitais</strong>: conteúdos educacionais registrados principalmente como  <strong>licenças livres</strong>
+</li>
+<li>
+<strong>Sites Temáticos</strong>: referencias a web sites desenvolvidos por instituições parceiras que disponibilizam mídias educacionais livres das mais variadas áreas do conhecimento e temas transversais</li>
+<li>
+<strong>Ambientes de Apoio e a Produção</strong>: são referencias a softwares livres ou aplicações pedagógicos específicos para a produção de mídias educacionais.</li>
+<li>
+<strong>Espaço Aberto</strong>: uma rede social educacional em que professores e estudantes podem publicar seus próprios textos, compartilhar mídias, criar e participar de comunidades de ensino-aprendizagem</li>
+</ul>
+
+<p>O principal objetivo do <strong>AEW</strong> é ser um ambiente pedagógico e multidisciplinar para que estudantes e professores possam acessar, compartilhar e construir conhecimentos por meio das novas tecnologias da informação e comunicação, sempre respeitando as <strong>licenças livres</strong>.  </p>
+
+<h2>
+<a id="software-livre" class="anchor" href="#software-livre" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SOFTWARE LIVRE</h2>
+
+<p>Estamos liberando o código da aplicação para cumprir com o propósito para o qual foi criado o <strong>Ambiente Educacional Web</strong>, ser um <strong>software livre</strong>, para que qualquer pessoa ou também outras secretarias de educação no Brasil sejam parte deste projeto aberto para a comunidade de desenvolvimento, por isso o convidamos a instalar o aplicativo em seu servidor local. </p>
+
+<h2>
+<a id="como-esta-implementado" class="anchor" href="#como-esta-implementado" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>COMO ESTA IMPLEMENTADO</h2>
+
+<p>Básicamente o projeto esta implementado na arquitetura <strong>MVC</strong> (Modelo - Vista - Controlador) para isso foi estabelecido utilizar: </p>
+
+<ul>
+<li>Backend -  Zend Framework 1.11 </li>
+<li>(PHP 5.3)</li>
+<li>Servidor Apache 2.2</li>
+<li>Banco de Dados - Postgres 9.1 ou superior</li>
+<li>Frontend - JQuery 1.11 / Bootstrap 3.6 / plugins de JQuery / Outros</li>
+</ul>
+
+<h2>
+<a id="como-instalar" class="anchor" href="#como-instalar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>COMO INSTALAR</h2>
+
+<p>A equipe de desenvolvimento utiliza o sistema operacional <strong>Ubuntu</strong> como ambiente de desenvolvimento e seguiremos este mini tutorial segundo as configurações que criamos em Ubuntu. Se você tem outra distribuição <strong>Linux</strong> ou sistema operacional siga as instruções de algum <strong>HOW TO</strong> para configurar um novo virtual host em sua maquina.</p>
+
+<h3>
+<a id="postgresql" class="anchor" href="#postgresql" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>POSTGRESQL</h3>
+
+<p>Desde o terminal entre como usuario admin</p>
+
+<p><code>$ su - postgres</code><br>
+<code>postgres&gt; psql</code></p>
+
+<p>Crie banco de dados e asigne a um usuário</p>
+
+<p><code>Postgres&gt; createdb -U usuarioDoBanco nomeDoBancoNovo</code></p>
+
+<p>Liste todos os bancos de datos para comprobar si criou o banco</p>
+
+<p><code>Postgres&gt; \l</code></p>
+
+<p>Se conecte ao banco de datos</p>
+
+<p><code>postgres&gt; \c nomeDoBancoNovo</code></p>
+
+<p>E faz o restore do banco <a href="https://github.com/redeanisioteixeira/aew_github/blob/master/db_ambiente_educaional_web.sql" title="dump do banco">db_ambiente_educaional_web.sql</a></p>
+
+<p><code>postgres&gt; \i nomeDoArquivo.backup ou .sql</code> </p>
+
+<h3>
+<a id="usuÁrios" class="anchor" href="#usu%C3%81rios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>USUÁRIOS</h3>
+
+<table>
+<thead>
+<tr>
+<th>Usuários</th>
+<th align="center">Login</th>
+<th align="right">Senha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Super administrador</td>
+<td align="center">admin</td>
+<td align="right">admin@aew</td>
+</tr>
+<tr>
+<td>Administrador</td>
+<td align="center">administrador</td>
+<td align="right">administrador@aew</td>
+</tr>
+<tr>
+<td>Coordenador</td>
+<td align="center">coordenador</td>
+<td align="right">coordenador@aew</td>
+</tr>
+<tr>
+<td>Editor</td>
+<td align="center">editor</td>
+<td align="right">editor@aew</td>
+</tr>
+<tr>
+<td>Colaborador</td>
+<td align="center">colaborador</td>
+<td align="right">colaborador@aew</td>
+</tr>
+<tr>
+<td>Amigo da Escola</td>
+<td align="center">amigodaescola</td>
+<td align="right">amigodaescola@aew</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="virtual-host-e-configuraÇÃo-do-apache" class="anchor" href="#virtual-host-e-configura%C3%87%C3%83o-do-apache" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VIRTUAL HOST E CONFIGURAÇÃO DO APACHE</h3>
+
+<p>Com o editor nano ou gedit crie o arquivo <strong>ambiente.educacional.web</strong> na pasta /etc/apache2/sites-available </p>
+
+<p><code>$ sudo nano /etc/apache2/sites-available/ambiente.educacional.web</code> </p>
+
+<p>Cole o seguinte codigo</p>
+
+<pre><code>
+&lt;VirtualHost *:80&gt;
+DocumentRoot "/var/www/ambiente.educacional.web/aew_sec/public"
+ServerName ambiente.educacional.web
+
+# Diretiva que aponta na pasta de conteúdos digitais, onde ficarão físicamente guardados
+AliasMatch ^/conteudos/(.*) "/media/srv/conteudos/$1"
+
+# Diretiva para colocar o sistema em desenvolvimento para DEBUG da aplicação
+SetEnv APPLICATION_ENV "development"
+# Diretiva de opções de diretorio
+&lt;Directory "/var/www/ambiente.educacional.web/aew_sec/public"&gt;
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    allow from all
+    Options +Indexes
+&lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+
+</code></pre>
+
+<p>Guarde o arquivo e crie um link simbólico do arquivo na pasta /etc/apache2/sites-enables</p>
+
+<p><code>$ cd /etc/apache2/sites-available/</code> <br></p>
+
+<p><code>$ sudo ln -s /etc/apache2/sites-available/ambiente.educacional.web /etc/apache2/sites-enabled/</code></p>
+
+<p>Confirme si criou o link simbólico na pasta /etc/apache2/sites-enables</p>
+
+<p><code>$ sudo ls -l</code></p>
+
+<p>Adicione seu virtual host (ambiente.educacional.web) na configuração do arquivo /etc/hosts</p>
+
+<p><code>$ sudo nano /etc/hosts</code></p>
+
+<p>Reinicíe seu servidor apache</p>
+
+<p><code>$ sudo service apache2 restart</code></p>
+
+<p>Entre no seu navegador e digite <a href="http://ambiente.educacional.web">http://ambiente.educacional.web</a> assim já estará instalada a aplicação, lembre que é necesario habilitar o módulo rewrite para reescrever as urls.</p>
+
+<h3>
+<a id="applicationini" class="anchor" href="#applicationini" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>APPLICATION.INI</h3>
+
+<p>Entre na pasta <code>aew_sec/application/configs/application.ini</code> e edite as siguentes linhas  </p>
+
+<pre><code>[production]
+constants.MEDIA_PATH = /dados/srv1  // guarda arquivos físicos para manté-los separados da aplicação
+constants.CONTEUDO_PATH = conteudos  
+
+;;; Modules
+resources.db.params.dbname = "xxxxxxx"   // Nome do Banco de Dados 
+resources.db.params.host =  "xxx.xxx.xxx.xxx" // localhost ou IP
+resources.db.params.username = "xxxxxxx" // Usuário utilizador do Banco
+resources.db.params.password = "xxxxxxx" // Senha do Banco
+
+</code></pre>
+
+<h2>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CONTRIBUTORS</h2>
+
+<ul>
+<li>Coordenador Geral Yuri Wanderley</li>
+<li>Coordenador Equipe de desenvolvimento Lisandro Monje</li>
+<li>Desenvolvedor Tiago Lima </li>
+<li>Desenvolvedor Nicolás Romero</li>
+<li>Designer Josymar Álves</li>
+</ul>
+
+<h2>
+<a id="crÉditos" class="anchor" href="#cr%C3%89ditos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CRÉDITOS</h2>
+
+<ul>
+<li>Secretaria da Educação do Estado da Bahia</li>
+<li>Rede Anísio Teixeira - Instituto Anísio Teixeira</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/redeanisioteixeira/aew_github/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/redeanisioteixeira/aew_github/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/redeanisioteixeira/aew_github"></a> is maintained by <a href="https://github.com/redeanisioteixeira">redeanisioteixeira</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
