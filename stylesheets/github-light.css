@@ -124,9 +124,10 @@ SOFTWARE.
 
 dl.link-list{
   font-size: 16px;
-  margin: 10px;
+  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 dl.link-list dt{
   border-bottom: solid 2px #fff;
-  
+  margin-bottom: 15px;
 }
