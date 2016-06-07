@@ -28,10 +28,10 @@ Básicamente o projeto esta implementado na arquitetura __MVC__ (Modelo - Vista 
 
 A equipe de desenvolvimento utiliza o sistema operacional __Ubuntu__ como ambiente de desenvolvimento e seguiremos este mini tutorial segundo as configurações que criamos em Ubuntu. Se você tem outra distribuição __Linux__ ou sistema operacional siga as instruções de algum __HOW TO__ para configurar um novo virtual host em sua maquina.
 
-### CRIE UM REPOSITORIO GIT
+### CRIE UM REPOSITÓRIO GIT
 
-Faça o download do repositorio desde a página [Rede Anísio Teixeira](http://redeanisioteixeira.github.io/aew_github/ "Página Oficial")
-ou faça o clone do repositorio se já esta familiarizado com a ferramenta GIT
+Faça o download do repositório desde a página [Rede Anísio Teixeira](http://redeanisioteixeira.github.io/aew_github/ "Página Oficial")
+ou faça o clone do repositório se já esta familiarizado com a ferramenta GIT
 
 ` $ git clone https://github.com/redeanisioteixeira/aew_github.git `
 
