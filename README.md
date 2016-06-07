@@ -28,6 +28,13 @@ Básicamente o projeto esta implementado na arquitetura __MVC__ (Modelo - Vista 
 
 A equipe de desenvolvimento utiliza o sistema operacional __Ubuntu__ como ambiente de desenvolvimento e seguiremos este mini tutorial segundo as configurações que criamos em Ubuntu. Se você tem outra distribuição __Linux__ ou sistema operacional siga as instruções de algum __HOW TO__ para configurar um novo virtual host em sua maquina.
 
+### CRIE UM REPOSITORIO GIT
+
+Faça o download do repositorio desde a página [Rede Anísio Teixeira](http://redeanisioteixeira.github.io/aew_github/ "Página Oficial")
+ou faça o clone do repositorio se já esta familiarizado com a ferramenta GIT
+
+` $ git clone https://github.com/redeanisioteixeira/aew_github.git `
+
 ### POSTGRESQL
 
 Desde o terminal entre como usuario admin
@@ -47,7 +54,7 @@ Se conecte ao banco de datos
 
 ` postgres> \c nomeDoBancoNovo `
 
-E faz o restore do banco [db_ambiente_educaional_web.sql](https://github.com/nikoz84/aew_github/blob/master/db_ambiente_educaional_web.sql "dump do banco")
+E faz o restore do banco [db_ambiente_educaional_web.sql](https://github.com/redeanisioteixeira/aew_github/blob/master/db_ambiente_educaional_web.sql "dump do banco")
 
 ` postgres> \i nomeDoArquivo.backup ou .sql ` 
 
