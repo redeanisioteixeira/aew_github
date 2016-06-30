@@ -35,6 +35,27 @@ ou faça o clone do repositório se já esta familiarizado com a ferramenta GIT
 
 ` $ git clone https://github.com/redeanisioteixeira/aew_github.git `
 
+### DIRETORIOS
+
+aew_github
+    ├──-aew_sec
+    |      ├──-application (arquivos do brack-end)
+    |      |          ├──-configs
+    |      |          ├──-layouts/scripts (layouts da aplicação)
+    |      |          └──-modules (modulos principais MVC)
+    |      |                └──-aew
+    |      |                     └──-models
+    |      |                            ├──-Bo (Bussiness Object)
+    |      |                            └──-Dao (Data Access Object)
+    |      └──-public (arquivos de front-end) 
+    ├──-library
+    |      ├──-AtomBuilder
+    |      ├──-Mpdf
+    |      ├──-Sec
+    |      ├──-Zend
+    |      └──-ZendX 
+    └──-nbproject (projeto para IDE netbeans)
+
 ### POSTGRESQL
 
 Desde o terminal entre como usuario admin
@@ -85,7 +106,7 @@ DocumentRoot "/var/www/ambiente.educacional.web/aew_sec/public"
 ServerName ambiente.educacional.web
 
 # Diretiva que aponta na pasta de conteúdos digitais, onde ficarão físicamente guardados
-AliasMatch ^/conteudos/(.*) "/media/srv/conteudos/$1"
+AliasMatch ^/conteudos/(.*) "/dados/srv/conteudos/$1"
 
 # Diretiva para colocar o sistema em desenvolvimento para DEBUG da aplicação
 SetEnv APPLICATION_ENV "development"
@@ -139,6 +160,35 @@ resources.db.params.username = "xxxxxxx" // Usuário utilizador do Banco
 resources.db.params.password = "xxxxxxx" // Senha do Banco
 
 ```
+
+### CONTEÚDOS MEDIA_PATH
+
+No virtual host foi configurado para sobre-escrever quando o endereço ou link aponte a /conteudos/ para a pasta de /dados/
+```
+AliasMatch ^/conteudos/(.*) "/dados/srv/conteudos/$1"
+```
+
+No arquivo application.ini é configurada a pasta /conteudos/ e ela tem a seguinte ordem de pastas
+
+├──---conteudos
+        |
+        ├──-ambientes-apoio
+        |           └──-imagem-associada
+        |                        └──-categoria
+        |
+        ├──-conteudos-digitais
+        |           ├──-download         
+        |           ├──-visualizacao
+        |           ├──-guias-pedagogicos
+        |           ├──-imagem-associada
+        |           ├──-qr-code
+        |           └──-colaborativo
+        ├──-fotos
+        |       ├──-comunidade
+        |       └──-usuario 
+        └──-fotos-perfil
+                ├──-comunidade
+                └──-usuario
 
 ## CONTRIBUTORS
 
