@@ -36,7 +36,7 @@ ou faça o clone do repositório se já esta familiarizado com a ferramenta GIT
 ` $ git clone https://github.com/redeanisioteixeira/aew_github.git `
 
 ### DIRETORIOS
-
+```
 aew_github
     ├──-aew_sec
     |      ├──-application (arquivos do brack-end)
@@ -55,7 +55,7 @@ aew_github
     |      ├──-Zend
     |      └──-ZendX 
     └──-nbproject (projeto para IDE netbeans)
-
+```
 ### POSTGRESQL
 
 Desde o terminal entre como usuario admin
@@ -169,7 +169,7 @@ AliasMatch ^/conteudos/(.*) "/dados/srv/conteudos/$1"
 ```
 
 No arquivo application.ini é configurada a pasta /conteudos/ e ela tem a seguinte ordem de pastas
-
+```
 ├──---conteudos
         |
         ├──-ambientes-apoio
@@ -189,7 +189,7 @@ No arquivo application.ini é configurada a pasta /conteudos/ e ela tem a seguin
         └──-fotos-perfil
                 ├──-comunidade
                 └──-usuario
-
+```
 ## CONTRIBUTORS
 
 * Coordenador Geral Yuri Wanderley
